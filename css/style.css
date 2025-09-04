@@ -15,3 +15,15 @@ body {
     display: none;
 }
 
+#accesa {
+    padding-right: 41px;
+}
+
+#spenta {
+    padding-left: 41px;
+}
+
+#myButton {
+    height: 35px;
+    width: 100px;
+}
