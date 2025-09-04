@@ -36,6 +36,8 @@ bottone.addEventListener('click', accendiLampadina);
 //     offLamp.classList.toggle("on-lamp");
 // }
 
+
+//funzione per accendere la lampadina (cambio img) senza toggle
 function accendiLampadina() {
     // check se presente già classe aggiuntiva
     const isOn = onLamp.classList.contains("on-lamp");
