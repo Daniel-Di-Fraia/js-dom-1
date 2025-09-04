@@ -26,18 +26,7 @@ console.log(onLamp);
 bottone.addEventListener('click', accendiLampadina);
 
 
-
-
-
-
-//funzione per accendere la lampadina (cambio img)
-// function accendiLampadina() {
-//     onLamp.classList.toggle("on-lamp");
-//     offLamp.classList.toggle("on-lamp");
-// }
-
-
-//funzione per accendere la lampadina (cambio img) senza toggle
+// funzione per accendere la lampadina (cambio img) senza toggle
 function accendiLampadina() {
     // check se presente già classe aggiuntiva
     const isOn = onLamp.classList.contains("on-lamp");
@@ -54,3 +43,9 @@ function accendiLampadina() {
     console.log(onLamp.classList);
 
 }
+
+//funzione per accendere la lampadina (cambio img)
+// function accendiLampadina() {
+//     onLamp.classList.toggle("on-lamp");
+//     offLamp.classList.toggle("on-lamp");
+// }
