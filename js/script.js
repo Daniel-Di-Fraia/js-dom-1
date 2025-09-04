@@ -32,5 +32,6 @@ bottone.addEventListener('click', accendiLampadina);
 
 //funzione per accendere la lampadina (cambio img)
 function accendiLampadina() {
-
+    onLamp.classList.toggle("on-lamp");
+    offLamp.classList.toggle("on-lamp");
 }
